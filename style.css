@@ -1,0 +1,99 @@
+body {
+    color: hsl(234, 29%, 20%);
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto';
+    display: block;
+    place-items: center;
+    min-width: 375px;
+    min-height: 100vh;
+    line-height: 1.5;
+}
+
+main {
+    padding-block-end: 1em;
+}
+
+h1 {
+    font-size: 2 rem;
+    padding: 0px 15px 0px 15px;
+    color:hsl(234, 29%, 20%);
+    font-size: 2.5rem;
+    margin: 20px 0px 20px 0px;
+}
+
+p {
+    padding: 0px 15px 0px 15px;
+}
+
+ul {
+    padding-left:0;
+}
+
+li {
+    padding-block-end: 1em;
+    display: flex;
+    gap: 15px;
+    align-items: start;
+    padding: 0px 15px 16px 15px;
+}
+
+.form-wrap {
+    margin-inline: auto;
+    width: min(23.5rem, calc(100% -2rem));
+}
+
+.image-container img {
+    width:100%;
+}
+
+label {
+    padding: 0px 15px 0px 15px;
+    color:hsl(234, 29%, 20%);
+    font-weight: bold;
+}
+
+.mail {
+    display: flex;
+    justify-self: space-between;
+    padding-block-end: 0.5em;
+}
+
+#email-error {
+    color:hsl(4, 100%, 67%);
+    margin-left:auto;
+}
+
+.attribution {
+    font-size: 13px;
+    padding: 0px 15px 5px 15px;
+}
+
+input {
+    width:80%;
+    padding:1.5em;
+    margin-block-end: 1.5em;
+    border-radius:5px;
+    border: 2px solid lightgray;
+    display:block;
+    margin: 5px 15px 15px 15px;
+    
+}
+
+button {
+    color: white;
+    background-color: hsl(234, 29%, 20%);
+    width: 92.3%;
+    border: none;
+    font-weight: bold;
+    padding: 1.3em 2em;
+    font-size: 1rem;
+    border-radius: 6px;
+    margin: 10px 13px 2px 13px;
+
+}
+
+
+.desktop-image {
+    display:none;
+}
