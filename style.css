@@ -122,4 +122,91 @@ button:hover {
 }
 
 
+@media (min-width: 1440px) {
 
+*{
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    margin: 0rem 0;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    background-color: hsl(234, 29%, 20%);
+}
+
+.form-wrap {
+    border:2px solid transparent;
+    border-radius:10px;
+    background-color:white;
+    width:1000px;
+    height:600px;
+}
+
+input {
+    width:50%;
+}
+
+button {
+    width:40%;
+    margin-left: 80px;
+}
+
+.attribution {
+    color:white;
+}
+
+a {
+    color:cyan;
+}
+
+h1 {
+    padding-left: 80px;
+    padding-top: 30px;
+    font-size:60px;
+}
+
+p {
+    padding-left: 80px;
+    max-width:510px;
+}
+
+li, label {
+    padding-left: 80px;
+}
+
+input {
+    width:40%;
+    display:block;
+    margin-left: 80px;
+    border:2px solid black;
+}
+
+#email-error {
+    margin-left: 130px;
+    border-color:hsl(0, 100%, 50%);
+    border: 2x solid transparent;
+}
+
+.desktop-image {
+    display:grid;
+    width:100%;
+    height:100%;
+    float:right;
+    max-width: 400px;
+    max-height: 700px;
+    width: auto;
+    height: auto;
+    padding-top:15px;
+    padding-right:20px;
+}
+
+.mobile-image {
+    display:none;
+}
+
+}
