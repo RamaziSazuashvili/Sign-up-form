@@ -15,6 +15,7 @@ body {
     place-items: center;
     min-height: 100vh;
     line-height: 1.5;
+    min-width:375px;
 }
 
 .icon {
@@ -55,20 +56,67 @@ button:hover {
 }
 
 .success-btn-mobile {
-    font-weight: bold;
+    color: white;
+    background-color: hsl(234, 29%, 20%);
+    width: 90%;
+    border: none;
+    padding: 1.3em 2em;
+    font-size: 1rem;
+    border-radius: 10px;
+    margin: 300px 13px 2px 13px;
+    text-align: center;
+    display: flex;
+    padding-left:90px;
+    font-weight:400;
+    line-height:24px;
+}
+
+@media (min-width: 1440px) {
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    background-color: hsl(235, 18%, 26%);
+}
+
+.success-state {
+    border:2px solid transparent;
+    border-radius:35px;
+    background-color:white;
+    width: 504px;
+    height:500px;
+    padding-top:50px;
+}
+
+.icon {
+    padding-left: 60px;
+}
+
+h1 {
+    font-size:56px;
+    font-weight:700;
+    line-height:1;
+    padding-left:60px;
+}
+
+p {
+    max-width:376px;
+    padding-left:60px;
+    line-height:24px;
+    font-size:16px;
 }
 
 .success-btn-mobile {
-    color: white;
-    background-color: hsl(234, 29%, 20%);
-    width: 75%;
-    border: none;
-    font-weight: bold;
-    padding: 1.3em 2em;
-    font-size: 1rem;
-    border-radius: 6px;
-    margin: 10px 13px 2px 13px;
-    text-align: center;
-    display: flex;
-    align-self:self-end;
+    max-width:376px;
+    padding-left:132px;
+    margin-top:50px;
+    margin-left:60px;
+    border-radius:10px;
+}
+
+
 }

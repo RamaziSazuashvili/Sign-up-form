@@ -104,7 +104,7 @@ button {
     font-weight: bold;
     padding: 1.3em 2em;
     font-size: 1rem;
-    border-radius: 6px;
+    border-radius: 10px;
     margin: 10px 13px 2px 13px;
 
 }
@@ -141,7 +141,7 @@ body {
 
 .form-wrap {
     border:2px solid transparent;
-    border-radius:10px;
+    border-radius:35px;
     background-color:white;
     width:1000px;
     height:600px;
@@ -154,6 +154,7 @@ input {
 button {
     width:40%;
     margin-left: 80px;
+    border-radius:10px;
 }
 
 .attribution {
