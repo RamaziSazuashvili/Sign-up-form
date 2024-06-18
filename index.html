@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="./style.css">
   <link rel="success" href="./success.html">
 
-  
+
   
   
   <title>Frontend Mentor | Newsletter sign-up form with success message</title>
@@ -24,7 +24,7 @@
         <img class="desktop-image" src="./assets/images/illustration-sign-up-desktop.svg" alt="illustration-desktop">
       </div>
 
-    <form id="form" novalidate>
+    <form id="form" action="success.html">
       <div class="form-wrap">
         <h1>Stay updated!</h1>
         <p>Join 60,000+ product managers receiving monthly updates on:</p>
@@ -36,11 +36,11 @@
             </ul>
           <div class="mail">
             <label for="email">Email address</label>
-            <span aria-live="polite" id="email-error"></span>
+            <span id="email-error">Valid Email Required!</span>
           </div>
 
-        <input id="mail" placeholder="email@company.com" type="email" name="email">
-        <button onclick="location.href='success.html'" class="btn" type="submit">Subscribe to monthly newsletter</button>
+        <input id="email" placeholder="email@company.com" type="email" name="email" oninput="EmailCheck()">
+        <button id="btn" class="btn">Subscribe to monthly newsletter</button>
       </div>
     </div>
     </form>
@@ -51,6 +51,6 @@
     Coded by <a href="https://github.com/RamaziSazuashvili" target="_blank">Ramazi Sazuashvili</a>.
   </div>
 
-  <script src="./script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
